@@ -1,0 +1,110 @@
+/*
+    --form-color: #A8A8A8;
+*/
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #F2A900;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  color: #E1E1E6;
+}
+
+body {
+  background-color: #37374F;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto 40px;
+}
+
+#readnews {
+  height: 100vh;
+  width: 50vw;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1)
+}
+
+
+#infos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+#area-form {
+  color: #A8A8A8;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#form-email {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 200px;
+  z-index: 1;
+  box-shadow: 2px 8px 20px #252533;
+}
+
+#quad-amarelo {
+  background-color: #F2A900;
+  width: 5px;
+}
+
+input[type="email"] {
+  padding: 15px 5px;
+  width: 110%;
+  border: none;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  box-sizing: border-box;
+  outline: 2px solid #F2A900;
+  outline-offset: -2px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2A900;
+  border: none;
+  width: 60px;
+}
+
+#atalho {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 80px;
+  color: #F2A900;
+}
